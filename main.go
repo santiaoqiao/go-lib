@@ -24,5 +24,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err.Error())
 	}
-	fmt.Println(s)
+	for _, v := range s {
+		fmt.Printf("%#v\n", v)
+	}
 }
